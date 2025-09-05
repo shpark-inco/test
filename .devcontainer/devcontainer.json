@@ -1,13 +1,6 @@
 {
-    "name": "qcli-test",
+    "name": "test-environment",
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "workspaceFolder": "/workspaces/test",
-    "onCreateCommand": "bash .devcontainer/setup.sh",
-    "customizations": {
-        "vscode": {
-            "settings": {
-                "terminal.integrated.defaultProfile.linux": "bash"
-            }
-        }
-    }
+    "onCreateCommand": "bash .devcontainer/setup.sh"
 }
